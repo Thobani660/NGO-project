@@ -146,7 +146,7 @@ li :hover{
 #Vision:hover {
     background-color: rgba(1, 1, 85, 0.287);
     width: 100px;
-    height: 50px;
+    height: 60px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -218,9 +218,12 @@ li :hover{
 
 p {
     display: none;
+    text-decoration: solid;
+    color: white;
 }
 ul {
     display: none;
+    color: white;
 }
 
 .div1a {
@@ -278,3 +281,44 @@ ul {
     display: flex;
 
 }
+/* spinner */
+.loader {
+    position: relative;
+    width: 34px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .loader::after {
+    content: '';
+    position: absolute;
+    margin-left: 10px;
+
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    width: 34px;
+    height: 12px;
+    border-radius: 0 0 50px 50px;
+    animation: move 0.5s linear infinite alternate;
+  }
+  .loader::before {
+    content: '';
+    position: absolute;
+    margin-left: 25px;
+    top: 0;
+    background: #FF3D00;
+    width: 14px;
+    height: 14px;
+    transform: translateX(-50%) rotate(0deg);
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    100% { transform: translateX(-50%) rotate(360deg)}
+  }
+  @keyframes move {
+    0% { transform: rotate(10deg)}
+    100% { transform: rotate(-10deg)}
+  }
+  /* spinner end */
+      
