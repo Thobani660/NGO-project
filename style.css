@@ -79,3 +79,202 @@ li :hover{
     border-radius: 20px;
    
 }
+
+/* changes added-style for #About */
+
+.div1{
+    background-color: rgba(255, 0, 0, 0.345);
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: inset;
+    margin-left: 100px;
+}
+
+.div2 {
+    background-color: rgba(255, 0, 0, 0.319);
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 100px;
+
+}
+
+.div3 {
+    background-color: rgba(255, 0, 0, 0.213);
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 100px;
+
+}
+
+.main{
+   display: none; 
+    padding: 50px;
+    background-color: antiquewhite;
+    justify-content: center;
+    /* align-items: center;
+    text-align: center; */
+    width: 1900px;
+    height: 1900px;
+}
+
+#Vision {
+    background-color: navy;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#Vision:hover {
+    background-color: rgba(1, 1, 85, 0.287);
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+
+    margin-left: 200px;
+    margin-top: 00px;
+    margin-bottom: 50px;
+
+}
+
+#Mission {
+    background-color: rgb(4, 4, 163);
+    width: 90px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin-left: 200px;
+    /* margin-top: 50px; */
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+#Mission:hover {
+    background-color: rgba(0, 0, 128, 0.287);
+    width: 90px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+#Object {
+    background-color: rgb(4, 4, 151);
+    width: 90px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin-left: 200px;
+    padding: 5px;
+    /* margin-bottom: 10px; */
+    border-radius: 20px;
+
+}
+
+#Object:hover {
+    background-color: rgba(0, 0, 128, 0.287);
+    width: 90px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+         padding: 5px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+}
+
+
+p {
+    display: none;
+}
+ul {
+    display: none;
+}
+
+.div1a {
+    background-color: rgba(0, 8, 255, 0.345);
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: inset;
+    margin-left: 100px;
+    display: none;
+}
+
+.div2a {
+    background-color: rgba(4, 0, 255, 0.345);
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: inset;
+    margin-left: 100px;
+    display: none;
+
+}
+
+.div3a {
+        background-color: rgba(43, 0, 255, 0.345);
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: inset;
+    margin-left: 100px;
+    display: none;
+
+}
+.div1A {
+    display: flex;
+}
+.div2A {
+    display: flex;
+
+}
+
+.div3A{
+    display: flex;
+
+}
