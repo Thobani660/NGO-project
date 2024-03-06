@@ -80,6 +80,11 @@ li :hover{
    
 }
 
+<<<<<<< HEAD
+.project{
+    background-color: url(image1.jpeg);
+}
+=======
 /* changes added-style for #About */
 
 .div1{
@@ -329,3 +334,4 @@ h1 {
   }
   /* spinner end */
       
+>>>>>>> 7a43f3de6484b1c1333dede8c75bb456b357da09
