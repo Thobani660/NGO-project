@@ -79,3 +79,7 @@ li :hover{
     border-radius: 20px;
    
 }
+
+.project{
+    background-color: url(image1.jpeg);
+}
