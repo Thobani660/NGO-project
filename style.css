@@ -83,7 +83,8 @@ li :hover{
 /* changes added-style for #About */
 
 .div1{
-    background-color: rgba(255, 0, 0, 0.345);
+    background-image: url(./Newhope_logo-removebg-preview.png);
+
     width: 500px;
     height: 400px;
     justify-content: center;
@@ -96,7 +97,8 @@ li :hover{
 }
 
 .div2 {
-    background-color: rgba(255, 0, 0, 0.319);
+    background-image: url(./Newhope_logo-removebg-preview.png);
+
     width: 500px;
     height: 400px;
     justify-content: center;
@@ -108,7 +110,8 @@ li :hover{
 }
 
 .div3 {
-    background-color: rgba(255, 0, 0, 0.213);
+    background-image: url(./Newhope_logo-removebg-preview.png);
+
     width: 500px;
     height: 400px;
     justify-content: center;
@@ -131,7 +134,7 @@ li :hover{
 }
 
 #Vision {
-    background-color: navy;
+    background-color: rgba(0, 0, 128, 0.412);
     width: 100px;
     height: 50px;
     display: flex;
@@ -159,7 +162,7 @@ li :hover{
 }
 
 #Mission {
-    background-color: rgb(4, 4, 163);
+    background-color: rgba(0, 0, 128, 0.412);
     width: 90px;
     height: 50px;
     justify-content: center;
@@ -188,7 +191,7 @@ li :hover{
 }
 
 #Object {
-    background-color: rgb(4, 4, 151);
+    background-color: rgba(0, 0, 128, 0.412);
     width: 90px;
     height: 50px;
     justify-content: center;
@@ -281,6 +284,10 @@ ul {
     display: flex;
 
 }
+h1 {
+    margin-right: 600px;
+    background-attachment: fixed
+    }
 /* spinner */
 .loader {
     position: relative;
